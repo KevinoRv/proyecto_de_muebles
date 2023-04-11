@@ -1,0 +1,137 @@
+/*------------estilos de categorias--------------*/
+body {
+    background-image: url(	https://www.resimdo.de/shop/media/image/84/e9/21/W949-06-folierte-wohnzimmer-wand-mit-selbstklebender-folie-in-holz-optik-bei-nacht_730x730.jpg);
+    background-size: cover;
+    margin: 40px;
+}
+/*estilos de las 3 categorias*/
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 150px;
+    font-family: Arial;
+    text-align: center;
+    color:aliceblue;
+  }
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-right: auto;
+  }
+  
+  .button {
+    margin: 0 10px;
+  }
+
+/*estilos de lista de botones*/
+.overflow-auto {
+    overflow: auto!important;
+}
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+hoja de estilo del agente de usuario
+div {
+    display: block;
+}
+
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+    background-color: #3E2723;
+}
+.btn-close {
+    padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
+    margin: calc(-.5 * var(--bs-modal-header-padding-y)) calc(-.5 * var(--bs-modal-header-padding-x)) calc(-.5 * var(--bs-modal-header-padding-y)) auto;
+    /* color: white; */
+    background-color: white;
+}
+
+
+.modal-content {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    background-image: url(https://th.bing.com/th/id/OIP.SO4p3m5vdGBJUKX_m-uimgHaKF?pid=ImgDet&w=1820&h=2480&rs=1);
+}
+@media (max-width: 400px) {
+
+    body {
+        background-image: url(	https://th.bing.com/th/id/OIP.M1iBZY-kamRXbr0f5Bq6mgHaEo?pid=ImgDet&rs=1);
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-left: auto;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-right: auto;
+      }
+      
+      .button {
+        margin: 0 10px;
+      }
+    
+      .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        height: 100px;
+        font-family: Arial;
+        text-align: center;
+        color:aliceblue;
+      }
+    
+      .modal-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        color: var(--bs-modal-color);
+        pointer-events: auto;
+        background-color: var(--bs-modal-bg);
+        background-clip: padding-box;
+        border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+        border-radius: var(--bs-modal-border-radius);
+        outline: 0;
+        background-image: url(https://th.bing.com/th/id/OIP.SO4p3m5vdGBJUKX_m-uimgHaKF?pid=ImgDet&w=1820&h=2480&rs=1);
+    }
+      
+}
+
+    
